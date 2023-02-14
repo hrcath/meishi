@@ -1,0 +1,16 @@
+body {
+    background-color: #fffefc;      /* "porcelain white" */
+    color: #28231D      /* "charcoal black" */
+}
+
+hr {
+    color: #28231D;     
+}
+
+a:link {
+    color: #4e0707      /* "wine" */
+}
+
+a:visited {
+    color: #541e1b      /* "merlot" */
+}
