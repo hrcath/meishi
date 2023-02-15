@@ -1,9 +1,24 @@
 body {
     background-color: #fffefc;      /* "porcelain white" */
-    color: #28231D      /* "charcoal black" */
+    color: #28231D;     /* "charcoal black" */
+    margin: 15px;
+    
 }
 
-hr {
+#title {
+    font-size: 30pt;
+    text-align: center;
+    margin:auto;
+}
+
+#directory {
+    text-align: left;
+    margin: auto;
+    width: 50%;
+}
+
+/* Coloring the diving line */
+hr {                    
     color: #28231D;     
 }
 
@@ -13,4 +28,12 @@ a:link {
 
 a:visited {
     color: #541e1b      /* "merlot" */
+}
+
+footer {
+    text-align: center;
+}
+
+code {
+    color: #a67b5b;     /* "cafe au lait" */
 }
