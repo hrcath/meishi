@@ -11,10 +11,32 @@ body {
     margin:auto;
 }
 
+#subtitle {
+    font-size: 20pt;
+    text-align: center;
+}
+
 #directory {
+    box-sizing: content-box;
     text-align: left;
     margin: auto;
     width: 50%;
+}
+
+#description {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-style: dotted;
+    border-radius: 15px;
+    padding: 1px;
+    border-color: #a67b5b;     /* "cafe au lait" */
+}
+
+.disclaimer {
+    font-size: small;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 /* Coloring the diving line */
